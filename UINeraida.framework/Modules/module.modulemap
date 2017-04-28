@@ -1,0 +1,10 @@
+framework module UINeraida {
+  umbrella header "UINeraida.h"
+
+  export *
+  module * { export * }
+}
+
+module UINeraida.Swift {
+    header "UINeraida-Swift.h"
+}
